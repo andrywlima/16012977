@@ -1,0 +1,25 @@
+package atividade;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+public class questao7 {
+
+	public static void main(String[] args) {
+		
+	Scanner m = new Scanner (System.in);
+	
+	int metros;
+	double cm;
+	
+	System.out.println("Informe a quantidade de metros : ");
+	metros=m.nextInt();
+	
+cm = metros*100;
+
+System.out.println(" A Quantidade me centimentos é :" + cm );
+
+
+	}
+
+}

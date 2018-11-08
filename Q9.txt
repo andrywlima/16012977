@@ -1,0 +1,28 @@
+package atividade;
+
+import java.util.Scanner;
+public class questao9 {
+
+	public static void main(String[] args) {
+		
+		Scanner q = new Scanner(System.in);
+		
+		int n1 ,n2;
+		double real,produt,soma,cubo;
+		
+		System.out.println("Informe o primeiro numero inteiro :");
+		n1=q.nextInt();
+		System.out.println("Informe o segundo numero inteiro :");
+		n2=q.nextInt();
+		System.out.println("Informe o terceiro numero real :");
+		real=q.nextDouble();
+		
+		produt = (2*n1)*(n2/2);
+		soma = 3*(n1+real);
+		cubo = Math.pow(real,3);
+		
+		System.out.println("produto :" + produt);
+		System.out.println("soma :" + soma);
+		System.out.println("cubo :" + cubo);
+	}
+}

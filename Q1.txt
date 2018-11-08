@@ -1,0 +1,28 @@
+package atividade;
+
+import java.util.Scanner;
+
+public class questão1 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+	String nome;
+	int idade;
+	
+	System.out.println("Informe Seu nome : ");
+	nome=entrada.nextLine();
+	
+	System.out.println("informe sua idade :" );
+	idade=entrada.nextInt();
+	
+	System.out.println("Olá senhor ,"+ nome);
+	System.out.println("sua idade é , " + idade + " anos");
+	
+	
+
+	}
+
+}
+;

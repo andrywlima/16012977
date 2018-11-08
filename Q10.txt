@@ -1,0 +1,28 @@
+package atividade;
+
+import java.util.Scanner;
+
+public class questao10 {
+
+	public static void main(String[] args) {
+		
+		Scanner a = new Scanner(System.in);
+		
+	double altura;
+	double peso ;
+	
+	System.out.println("Informe sua altura :");
+       altura=a.nextDouble();
+  
+      
+      peso = (72.7*altura)-58;
+      
+      System.out.println("o peso ideal é :" + peso + " kg");
+      
+      
+       
+       
+       
+	}
+
+}

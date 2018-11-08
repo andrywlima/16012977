@@ -1,0 +1,25 @@
+package atividade;
+
+import java.util.Scanner;
+
+public class questao5 {
+
+	public static void main(String[] args) {
+		
+		Scanner t = new Scanner(System.in);
+		
+	double F,c;
+	
+	System.out.println("Informe a temperatura em graus Fahrenheit :");
+	F=t.nextDouble();
+	
+	c = (5 * (F-32) / 9);
+	
+	System.out.println("A temperatura em Graus Celsius é :" + c + " º");
+	
+	
+	
+	}
+		
+
+}

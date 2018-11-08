@@ -1,0 +1,25 @@
+package atividade;
+
+import java.util.Scanner;
+public class questao6 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner (System.in);
+ int saldo;	
+double saldototal;
+ double porcent;
+ 
+ 
+ System.out.println("Informe se saldo :");
+ saldo=s.nextInt();
+ 
+ porcent = saldo*3/100;
+ saldototal = saldo+porcent;
+ 
+ System.out.println("Seu novo saldo com reajuste de 3% é :" + saldototal);
+ 
+
+	}
+
+}
